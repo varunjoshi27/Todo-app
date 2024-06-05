@@ -1,0 +1,76 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Soft gray background */
+  };
+  
+  h1 {
+    margin-top: 0;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  };
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Smooth transition for input */ 
+  };
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* Blue glow on focus */
+  };
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Smooth button hover effect */
+  };
+  
+  button.delete {
+    background-color: #dc3545; /* Red delete button */
+  };
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  };
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  };
+  
+  li {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+    background-color: #fff; /* White background */
+  }
+  
+  li:hover {
+    transform: translateY(-3px);
+  };
+  
+  .footer {
+    margin-top: 20px;
+    color: #666;
+  };
+
+  
